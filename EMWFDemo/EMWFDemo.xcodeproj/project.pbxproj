@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B213E81EE27F9C00E22ED2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B213E71EE27F9C00E22ED2 /* AppDelegate.m */; };
+		82B213EB1EE27F9C00E22ED2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B213EA1EE27F9C00E22ED2 /* main.m */; };
+		82B213EE1EE27F9C00E22ED2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B213ED1EE27F9C00E22ED2 /* ViewController.m */; };
+		82B213F01EE27F9C00E22ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B213EF1EE27F9C00E22ED2 /* Assets.xcassets */; };
+		82B213F31EE27F9C00E22ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B213F11EE27F9C00E22ED2 /* Main.storyboard */; };
+		82B213FE1EE27F9C00E22ED2 /* EMWFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B213FD1EE27F9C00E22ED2 /* EMWFDemoTests.m */; };
+		82B214091EE27F9C00E22ED2 /* EMWFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B214081EE27F9C00E22ED2 /* EMWFDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82B213FA1EE27F9C00E22ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B213DB1EE27F9C00E22ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B213E21EE27F9C00E22ED2;
+			remoteInfo = EMWFDemo;
+		};
+		82B214051EE27F9C00E22ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B213DB1EE27F9C00E22ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B213E21EE27F9C00E22ED2;
+			remoteInfo = EMWFDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82B213E31EE27F9C00E22ED2 /* EMWFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMWFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B213E61EE27F9C00E22ED2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82B213E71EE27F9C00E22ED2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82B213EA1EE27F9C00E22ED2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82B213EC1EE27F9C00E22ED2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82B213ED1EE27F9C00E22ED2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82B213EF1EE27F9C00E22ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82B213F21EE27F9C00E22ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82B213F41EE27F9C00E22ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B213F91EE27F9C00E22ED2 /* EMWFDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWFDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B213FD1EE27F9C00E22ED2 /* EMWFDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMWFDemoTests.m; sourceTree = "<group>"; };
+		82B213FF1EE27F9C00E22ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B214041EE27F9C00E22ED2 /* EMWFDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWFDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B214081EE27F9C00E22ED2 /* EMWFDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMWFDemoUITests.m; sourceTree = "<group>"; };
+		82B2140A1EE27F9C00E22ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B213E01EE27F9C00E22ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B213F61EE27F9C00E22ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B214011EE27F9C00E22ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B213DA1EE27F9C00E22ED2 = {
+			isa = PBXGroup;
+			children = (
+				82B213E51EE27F9C00E22ED2 /* EMWFDemo */,
+				82B213FC1EE27F9C00E22ED2 /* EMWFDemoTests */,
+				82B214071EE27F9C00E22ED2 /* EMWFDemoUITests */,
+				82B213E41EE27F9C00E22ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B213E41EE27F9C00E22ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B213E31EE27F9C00E22ED2 /* EMWFDemo.app */,
+				82B213F91EE27F9C00E22ED2 /* EMWFDemoTests.xctest */,
+				82B214041EE27F9C00E22ED2 /* EMWFDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B213E51EE27F9C00E22ED2 /* EMWFDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82B213E61EE27F9C00E22ED2 /* AppDelegate.h */,
+				82B213E71EE27F9C00E22ED2 /* AppDelegate.m */,
+				82B213EC1EE27F9C00E22ED2 /* ViewController.h */,
+				82B213ED1EE27F9C00E22ED2 /* ViewController.m */,
+				82B213EF1EE27F9C00E22ED2 /* Assets.xcassets */,
+				82B213F11EE27F9C00E22ED2 /* Main.storyboard */,
+				82B213F41EE27F9C00E22ED2 /* Info.plist */,
+				82B213E91EE27F9C00E22ED2 /* Supporting Files */,
+			);
+			path = EMWFDemo;
+			sourceTree = "<group>";
+		};
+		82B213E91EE27F9C00E22ED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82B213EA1EE27F9C00E22ED2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82B213FC1EE27F9C00E22ED2 /* EMWFDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				82B213FD1EE27F9C00E22ED2 /* EMWFDemoTests.m */,
+				82B213FF1EE27F9C00E22ED2 /* Info.plist */,
+			);
+			path = EMWFDemoTests;
+			sourceTree = "<group>";
+		};
+		82B214071EE27F9C00E22ED2 /* EMWFDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82B214081EE27F9C00E22ED2 /* EMWFDemoUITests.m */,
+				82B2140A1EE27F9C00E22ED2 /* Info.plist */,
+			);
+			path = EMWFDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B213E21EE27F9C00E22ED2 /* EMWFDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B2140D1EE27F9C00E22ED2 /* Build configuration list for PBXNativeTarget "EMWFDemo" */;
+			buildPhases = (
+				82B213DF1EE27F9C00E22ED2 /* Sources */,
+				82B213E01EE27F9C00E22ED2 /* Frameworks */,
+				82B213E11EE27F9C00E22ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMWFDemo;
+			productName = EMWFDemo;
+			productReference = 82B213E31EE27F9C00E22ED2 /* EMWFDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82B213F81EE27F9C00E22ED2 /* EMWFDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B214101EE27F9C00E22ED2 /* Build configuration list for PBXNativeTarget "EMWFDemoTests" */;
+			buildPhases = (
+				82B213F51EE27F9C00E22ED2 /* Sources */,
+				82B213F61EE27F9C00E22ED2 /* Frameworks */,
+				82B213F71EE27F9C00E22ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B213FB1EE27F9C00E22ED2 /* PBXTargetDependency */,
+			);
+			name = EMWFDemoTests;
+			productName = EMWFDemoTests;
+			productReference = 82B213F91EE27F9C00E22ED2 /* EMWFDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82B214031EE27F9C00E22ED2 /* EMWFDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B214131EE27F9C00E22ED2 /* Build configuration list for PBXNativeTarget "EMWFDemoUITests" */;
+			buildPhases = (
+				82B214001EE27F9C00E22ED2 /* Sources */,
+				82B214011EE27F9C00E22ED2 /* Frameworks */,
+				82B214021EE27F9C00E22ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B214061EE27F9C00E22ED2 /* PBXTargetDependency */,
+			);
+			name = EMWFDemoUITests;
+			productName = EMWFDemoUITests;
+			productReference = 82B214041EE27F9C00E22ED2 /* EMWFDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B213DB1EE27F9C00E22ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jayDev;
+				TargetAttributes = {
+					82B213E21EE27F9C00E22ED2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PHEWD2CWBG;
+						ProvisioningStyle = Automatic;
+					};
+					82B213F81EE27F9C00E22ED2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PHEWD2CWBG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82B213E21EE27F9C00E22ED2;
+					};
+					82B214031EE27F9C00E22ED2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PHEWD2CWBG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82B213E21EE27F9C00E22ED2;
+					};
+				};
+			};
+			buildConfigurationList = 82B213DE1EE27F9C00E22ED2 /* Build configuration list for PBXProject "EMWFDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82B213DA1EE27F9C00E22ED2;
+			productRefGroup = 82B213E41EE27F9C00E22ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B213E21EE27F9C00E22ED2 /* EMWFDemo */,
+				82B213F81EE27F9C00E22ED2 /* EMWFDemoTests */,
+				82B214031EE27F9C00E22ED2 /* EMWFDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B213E11EE27F9C00E22ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B213F01EE27F9C00E22ED2 /* Assets.xcassets in Resources */,
+				82B213F31EE27F9C00E22ED2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B213F71EE27F9C00E22ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B214021EE27F9C00E22ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B213DF1EE27F9C00E22ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B213EE1EE27F9C00E22ED2 /* ViewController.m in Sources */,
+				82B213EB1EE27F9C00E22ED2 /* main.m in Sources */,
+				82B213E81EE27F9C00E22ED2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B213F51EE27F9C00E22ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B213FE1EE27F9C00E22ED2 /* EMWFDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B214001EE27F9C00E22ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B214091EE27F9C00E22ED2 /* EMWFDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B213FB1EE27F9C00E22ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B213E21EE27F9C00E22ED2 /* EMWFDemo */;
+			targetProxy = 82B213FA1EE27F9C00E22ED2 /* PBXContainerItemProxy */;
+		};
+		82B214061EE27F9C00E22ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B213E21EE27F9C00E22ED2 /* EMWFDemo */;
+			targetProxy = 82B214051EE27F9C00E22ED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82B213F11EE27F9C00E22ED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B213F21EE27F9C00E22ED2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82B2140B1EE27F9C00E22ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82B2140C1EE27F9C00E22ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82B2140E1EE27F9C00E22ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PHEWD2CWBG;
+				INFOPLIST_FILE = EMWFDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NETEASE.EMWFDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82B2140F1EE27F9C00E22ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PHEWD2CWBG;
+				INFOPLIST_FILE = EMWFDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NETEASE.EMWFDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82B214111EE27F9C00E22ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PHEWD2CWBG;
+				INFOPLIST_FILE = EMWFDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NETEASE.EMWFDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMWFDemo.app/Contents/MacOS/EMWFDemo";
+			};
+			name = Debug;
+		};
+		82B214121EE27F9C00E22ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PHEWD2CWBG;
+				INFOPLIST_FILE = EMWFDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NETEASE.EMWFDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMWFDemo.app/Contents/MacOS/EMWFDemo";
+			};
+			name = Release;
+		};
+		82B214141EE27F9C00E22ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PHEWD2CWBG;
+				INFOPLIST_FILE = EMWFDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NETEASE.EMWFDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMWFDemo;
+			};
+			name = Debug;
+		};
+		82B214151EE27F9C00E22ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PHEWD2CWBG;
+				INFOPLIST_FILE = EMWFDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NETEASE.EMWFDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMWFDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B213DE1EE27F9C00E22ED2 /* Build configuration list for PBXProject "EMWFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B2140B1EE27F9C00E22ED2 /* Debug */,
+				82B2140C1EE27F9C00E22ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B2140D1EE27F9C00E22ED2 /* Build configuration list for PBXNativeTarget "EMWFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B2140E1EE27F9C00E22ED2 /* Debug */,
+				82B2140F1EE27F9C00E22ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82B214101EE27F9C00E22ED2 /* Build configuration list for PBXNativeTarget "EMWFDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B214111EE27F9C00E22ED2 /* Debug */,
+				82B214121EE27F9C00E22ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82B214131EE27F9C00E22ED2 /* Build configuration list for PBXNativeTarget "EMWFDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B214141EE27F9C00E22ED2 /* Debug */,
+				82B214151EE27F9C00E22ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B213DB1EE27F9C00E22ED2 /* Project object */;
+}

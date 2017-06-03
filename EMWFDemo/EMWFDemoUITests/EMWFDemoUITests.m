@@ -1,6 +1,6 @@
 //
-//  THSMACDemoUITests.m
-//  THSMACDemoUITests
+//  EMWFDemoUITests.m
+//  EMWFDemoUITests
 //
 //  Created by jayDev on 2017/6/3.
 //  Copyright © 2017年 jayDev. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface THSMACDemoUITests : XCTestCase
+@interface EMWFDemoUITests : XCTestCase
 
 @end
 
-@implementation THSMACDemoUITests
+@implementation EMWFDemoUITests
 
 - (void)setUp {
     [super setUp];

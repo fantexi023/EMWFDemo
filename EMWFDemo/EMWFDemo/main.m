@@ -1,6 +1,6 @@
 //
-//  ViewController.h
-//  THSMACDemo
+//  main.m
+//  EMWFDemo
 //
 //  Created by jayDev on 2017/6/3.
 //  Copyright © 2017年 jayDev. All rights reserved.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
-
-@end
-
+int main(int argc, const char * argv[]) {
+    return NSApplicationMain(argc, argv);
+}
