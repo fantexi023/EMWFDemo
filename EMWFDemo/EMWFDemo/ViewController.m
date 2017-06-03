@@ -8,8 +8,22 @@
 
 #import "ViewController.h"
 
-#define NUM_OF_DEMOS 1
+#define NUM_OF_DEMOS 2
+
+@interface ViewController()
+
+@property (nonatomic, strong)  NSTabViewController *tabVC;
+
+@end
+
 @implementation ViewController
+
+- (instancetype)init {
+    if (self = [super init]) {
+        _tabVC = [[NSTabViewController alloc] init];
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,11 +41,25 @@
 
 - (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
     NSTableCellView *cellView = [tableView makeViewWithIdentifier:@"TableCellView" owner:nil];
-    cellView.textField.stringValue = @"Draw Line Demo";
+    NSString *stringValue = nil;
+    switch (row) {
+        case 0: {
+            stringValue = @"Draw Line Demo";
+            break;
+        }
+        case 1: {
+            stringValue = @"other";
+            break;
+        }
+        default:
+            break;
+    }
+    cellView.textField.stringValue = stringValue;
     return cellView;
 }
 
 - (void)action {
-    NSLog(@"");
+    
+    NSLog(@"%ld",_tableview.selectedRow);
 }
 @end
